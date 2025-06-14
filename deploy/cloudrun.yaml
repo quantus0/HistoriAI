@@ -1,0 +1,17 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: historiai-backend
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+      - image: gcr.io/[PROJECT-ID]/historiai-backend:latest
+        env:
+        - name: MONGO_URI
+          value: "[YOUR_MONGO_URI]"
+        - name: GEMINI_API_KEY
+          value: "[YOUR_API_KEY]"
+        - name: PORT
+          value: "8080"
