@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Silk Road Conflict",
+    "year": 1520,
+    "location": { "coordinates": [40.7128, 60.0361] },
+    "summary": "Clashes between traders and nomadic tribes disrupted silk trade in Central Asia."
+  },
+  {
+    "title": "Spice Route Expansion",
+    "year": 1600,
+    "location": { "coordinates": [-5.1477, 100.6197] },
+    "summary": "European traders, led by the Dutch, expanded spice routes in the Indian Ocean."
+  },
+  {
+    "title": "Ottoman-Safavid Trade War",
+    "year": 1534,
+    "location": { "coordinates": [32.4279, 53.6880] },
+    "summary": "Ottoman-Safavid conflicts disrupted trade routes through Persia."
+  },
+  {
+    "title": "Venetian Trade Monopoly",
+    "year": 1450,
+    "location": { "coordinates": [45.4408, 12.3155] },
+    "summary": "Venice secured a monopoly on Mediterranean trade routes."
+  },
+  {
+    "title": "Mongol Trade Route Protection",
+    "year": 1250,
+    "location": { "coordinates": [47.8864, 106.9057] },
+    "summary": "Mongol Empire ensured safe passage for traders along the Silk Road."
+  },
+  {
+    "title": "Portuguese Spice Route Control",
+    "year": 1505,
+    "location": { "coordinates": [8.5241, 76.9366] },
+    "summary": "Portuguese forces captured key ports to control spice trade in India."
+  },
+  {
+    "title": "Trans-Saharan Trade Conflict",
+    "year": 1550,
+    "location": { "coordinates": [16.5388, 7.9877] },
+    "summary": "Tribal conflicts disrupted gold and salt trade across the Sahara."
+  },
+  {
+    "title": "Hanseatic League Trade",
+    "year": 1400,
+    "location": { "coordinates": [53.5511, 9.9937] },
+    "summary": "Hanseatic League dominated Baltic Sea trade routes."
+  },
+  {
+    "title": "Maritime Silk Road Piracy",
+    "year": 1620,
+    "location": { "coordinates": [21.9162, 114.1694] },
+    "summary": "Piracy increased along the Maritime Silk Road, impacting trade."
+  },
+  {
+    "title": "Amber Road Trade",
+    "year": 1500,
+    "location": { "coordinates": [54.6872, 20.4522] },
+    "summary": "Amber trade routes flourished between the Baltic and Mediterranean."
+  }
+]
