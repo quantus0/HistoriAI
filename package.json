@@ -1,0 +1,12 @@
+{
+  "name": "historiai",
+  "version": "1.0.0",
+  "description": "Interactive historical data explorer for AI in Action Hackathon",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "frontend": "cd frontend && npm start",
+    "ingest": "cd backend && node data/ingestHistoricalData.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
