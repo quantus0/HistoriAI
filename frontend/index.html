@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>HistoriAI Chatbot</title>
   <style>
     body {
@@ -79,7 +79,7 @@
 
   <div id="chat">
     <div class="message bot">
-      Hello! I'm HistoriAI. Ask me about trade routes, historical events, or conflicts between 1500–1800.
+      Hello! I'm HistoriAI. Ask me anything.
     </div>
   </div>
 
@@ -93,7 +93,12 @@
     const input = document.getElementById('input');
     const chat = document.getElementById('chat');
 
-    form.addEventListener('submit', async (e) => {
+    const fixedResponses = [
+      "Between 1500 and 1700, the spice trade routes between India and Europe saw intense competition and occasional naval conflict between the Portuguese, Dutch, and British.",
+      "Wars in Eastern Europe during the 18th century, such as the Great Northern War, significantly reduced populations in affected regions due to casualties and displacement."
+    ];
+
+    form.addEventListener('submit', (e) => {
       e.preventDefault();
       const message = input.value.trim();
       if (!message) return;
@@ -103,20 +108,12 @@
 
       appendMessage('bot', 'Thinking...');
 
-      try {
-        const res = await fetch('http://localhost:8080/query', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ query: message })
-        });
-
-        const data = await res.json();
-        removeLastBotMessage(); // remove "Thinking..."
-        appendMessage('bot', data.answer || 'No answer available.');
-      } catch (err) {
+      setTimeout(() => {
         removeLastBotMessage();
-        appendMessage('bot', 'Error connecting to server.');
-      }
+        // Simple logic: alternate between two canned responses
+        const response = fixedResponses[Math.floor(Math.random() * fixedResponses.length)];
+        appendMessage('bot', response);
+      }, 1000); // Simulate thinking delay
     });
 
     function appendMessage(sender, text) {
