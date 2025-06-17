@@ -60,3 +60,401 @@
     "summary": "Amber trade routes flourished between the Baltic and Mediterranean."
   }
 ]
+[
+  {
+    "title": "Silk Road Conflict",
+    "year": 1520,
+    "location": { "coordinates": [40.7128, 60.0361] },
+    "summary": "Clashes between traders and nomadic tribes disrupted silk trade in Central Asia."
+  },
+  {
+    "title": "Spice Route Expansion",
+    "year": 1600,
+    "location": { "coordinates": [-5.1477, 100.6197] },
+    "summary": "European traders, led by the Dutch, expanded spice routes in the Indian Ocean."
+  },
+  {
+    "title": "Ottoman-Safavid Trade War",
+    "year": 1534,
+    "location": { "coordinates": [32.4279, 53.6880] },
+    "summary": "Ottoman-Safavid conflicts disrupted trade routes through Persia."
+  },
+  {
+    "title": "Venetian Trade Monopoly",
+    "year": 1450,
+    "location": { "coordinates": [45.4408, 12.3155] },
+    "summary": "Venice secured a monopoly on Mediterranean trade routes."
+  },
+  {
+    "title": "Mongol Trade Route Protection",
+    "year": 1250,
+    "location": { "coordinates": [47.8864, 106.9057] },
+    "summary": "Mongol Empire ensured safe passage for traders along the Silk Road."
+  },
+  {
+    "title": "Portuguese Spice Route Control",
+    "year": 1505,
+    "location": { "coordinates": [8.5241, 76.9366] },
+    "summary": "Portuguese forces captured key ports to control spice trade in India."
+  },
+  {
+    "title": "Trans-Saharan Trade Conflict",
+    "year": 1550,
+    "location": { "coordinates": [16.5388, 7.9877] },
+    "summary": "Tribal conflicts disrupted gold and salt trade across the Sahara."
+  },
+  {
+    "title": "Hanseatic League Trade",
+    "year": 1400,
+    "location": { "coordinates": [53.5511, 9.9937] },
+    "summary": "Hanseatic League dominated Baltic Sea trade routes."
+  },
+  {
+    "title": "Maritime Silk Road Piracy",
+    "year": 1620,
+    "location": { "coordinates": [21.9162, 114.1694] },
+    "summary": "Piracy increased along the Maritime Silk Road, impacting trade."
+  },
+  {
+    "title": "Amber Road Trade",
+    "year": 1500,
+    "location": { "coordinates": [54.6872, 20.4522] },
+    "summary": "Amber trade routes flourished between the Baltic and Mediterranean."
+  },
+  {
+    "title": "Dutch-Portuguese Spice Wars",
+    "year": 1630,
+    "location": { "coordinates": [0.7893, 113.9213] },
+    "summary": "Dutch forces challenged Portuguese dominance in the spice islands of Indonesia."
+  },
+  {
+    "title": "Silk Road Epidemic Disruption",
+    "year": 1348,
+    "location": { "coordinates": [41.9028, 12.4964] },
+    "summary": "The Black Death spread via trade routes from Asia to Europe, halting commerce."
+  },
+  {
+    "title": "Portuguese–Mamluk Naval Battles",
+    "year": 1509,
+    "location": { "coordinates": [30.0444, 31.2357] },
+    "summary": "Naval confrontations in the Red Sea disrupted spice shipments to Europe."
+  },
+  {
+    "title": "Tea Horse Road Conflicts",
+    "year": 1700,
+    "location": { "coordinates": [27.1751, 78.0421] },
+    "summary": "Skirmishes between Tibetan tribes and Chinese caravans affected tea and horse trade."
+  },
+  {
+    "title": "Silk Road Caravanserai Attacks",
+    "year": 1100,
+    "location": { "coordinates": [35.6895, 139.6917] },
+    "summary": "Bandit raids targeted merchants at rest stops along the Silk Road in East Asia."
+  },
+  {
+    "title": "Roman Amber Trade Conflict",
+    "year": 200,
+    "location": { "coordinates": [48.2082, 16.3738] },
+    "summary": "Roman incursions into northern Europe for amber control caused regional upheaval."
+  },
+  {
+    "title": "Spanish Silver Fleet Threats",
+    "year": 1628,
+    "location": { "coordinates": [23.6345, -102.5528] },
+    "summary": "Privateers attacked Spanish silver fleets in the Caribbean, affecting trade."
+  },
+  {
+    "title": "Java Sea Spice Clashes",
+    "year": 1670,
+    "location": { "coordinates": [-0.7893, 110.6806] },
+    "summary": "Rival European and Asian ships battled over clove and nutmeg trade."
+  },
+  {
+    "title": "Rus–Byzantine Amber Trade Disputes",
+    "year": 1000,
+    "location": { "coordinates": [55.7558, 37.6173] },
+    "summary": "Rus traders negotiating with Byzantium over Baltic amber sparked diplomatic tensions."
+  },
+  {
+    "title": "Sinai Caravan Ambushes",
+    "year": 900,
+    "location": { "coordinates": [29.3117, 34.8011] },
+    "summary": "Nomadic groups ambushed caravans crossing the Sinai Desert on the incense route."
+  }
+]
+[
+  {
+    "title": "Great Migration to North America",
+    "year": 1620,
+    "location": { "coordinates": [41.3851, -73.9496] },
+    "summary": "Pilgrims crossed the Atlantic aboard the Mayflower, beginning European settlement in New England."
+  },
+  {
+    "title": "Thirty Years' War",
+    "year": 1618,
+    "location": { "coordinates": [50.1109, 8.6821] },
+    "summary": "A major religious and political conflict that devastated much of Central Europe."
+  },
+  {
+    "title": "Black Death Europe",
+    "year": 1347,
+    "location": { "coordinates": [45.4642, 9.1900] },
+    "summary": "The plague reached Europe via Mediterranean ports, killing up to 60% of the population in some regions."
+  },
+  {
+    "title": "Indian Ocean Slave Trade",
+    "year": 1500,
+    "location": { "coordinates": [20.5937, 78.9629] },
+    "summary": "Millions of East Africans were transported across the Indian Ocean to Middle Eastern and South Asian markets."
+  },
+  {
+    "title": "Treaty of Westphalia",
+    "year": 1648,
+    "location": { "coordinates": [50.9375, 6.9603] },
+    "summary": "Ended the Thirty Years' War and established principles of modern state sovereignty."
+  },
+  {
+    "title": "Mayan Collapse",
+    "year": 900,
+    "location": { "coordinates": [17.0658, -89.6237] },
+    "summary": "Major cities in the Maya civilization were abandoned due to drought and social upheaval."
+  },
+  {
+    "title": "Great Wall Construction",
+    "year": 221,
+    "location": { "coordinates": [40.4319, 116.5704] },
+    "summary": "Qin Shi Huang ordered construction of the Great Wall to guard against northern nomads."
+  },
+  {
+    "title": "Bantu Migration",
+    "year": 500,
+    "location": { "coordinates": [0.0236, 37.9062] },
+    "summary": "Widespread migration of Bantu-speaking peoples across sub-Saharan Africa, spreading language and agriculture."
+  },
+  {
+    "title": "Columbian Exchange Begins",
+    "year": 1492,
+    "location": { "coordinates": [28.5383, -81.3792] },
+    "summary": "Christopher Columbus's voyage initiated massive transfer of crops, animals, and diseases between the Americas and Eurasia."
+  },
+  {
+    "title": "Meiji Restoration",
+    "year": 1868,
+    "location": { "coordinates": [35.6895, 139.6917] },
+    "summary": "Japan rapidly industrialized and centralized after centuries of isolation under feudal rule."
+  },
+  {
+    "title": "Russian Expansion into Siberia",
+    "year": 1581,
+    "location": { "coordinates": [55.7558, 37.6173] },
+    "summary": "Yermak Timofeyevich led Cossack forces eastward, opening Siberia to fur trade and colonization."
+  },
+  {
+    "title": "Opium Wars",
+    "year": 1839,
+    "location": { "coordinates": [22.3964, 114.1095] },
+    "summary": "Qing China and British Empire clashed over opium trade, leading to unequal treaties and colonial influence."
+  },
+  {
+    "title": "Trail of Tears",
+    "year": 1838,
+    "location": { "coordinates": [35.4676, -97.5164] },
+    "summary": "Forced removal of Cherokee Nation from southeastern US, resulting in thousands of deaths."
+  },
+  {
+    "title": "Berlin Conference",
+    "year": 1884,
+    "location": { "coordinates": [52.5200, 13.4050] },
+    "summary": "European powers divided Africa among colonial empires, formalizing the Scramble for Africa."
+  },
+  {
+    "title": "Fall of Constantinople",
+    "year": 1453,
+    "location": { "coordinates": [41.0082, 28.9784] },
+    "summary": "Ottoman forces captured Constantinople, marking the end of the Byzantine Empire."
+  }
+]
+[
+  {
+    "title": "Carthaginian–Roman Naval Wars",
+    "year": -241,
+    "location": { "coordinates": [41.3818, 2.1685] },
+    "summary": "Naval confrontations between Rome and Carthage during the First Punic War impacted Mediterranean trade."
+  },
+  {
+    "title": "Han Dynasty Silk Road Missions",
+    "year": 130,
+    "location": { "coordinates": [34.2148, 108.9058] },
+    "summary": "Chinese envoys traveled west to establish trade and cultural links along the emerging Silk Road."
+  },
+  {
+    "title": "Viking Raids on Constantinople",
+    "year": 860,
+    "location": { "coordinates": [41.0082, 28.9784] },
+    "summary": "Rus Vikings attacked the Byzantine capital, affecting Black Sea trade networks."
+  },
+  {
+    "title": "Grand Canal Economic Boom",
+    "year": 618,
+    "location": { "coordinates": [31.2304, 121.4737] },
+    "summary": "Tang Dynasty’s Grand Canal enhanced grain and commodity transport across China."
+  },
+  {
+    "title": "Mali Empire Gold Trade",
+    "year": 1350,
+    "location": { "coordinates": [12.6392, -8.0029] },
+    "summary": "Timbuktu flourished as a major hub in the trans-Saharan gold trade under the Mali Empire."
+  },
+  {
+    "title": "Crusader Siege of Acre",
+    "year": 1191,
+    "location": { "coordinates": [32.9236, 35.0761] },
+    "summary": "Control of Acre gave Crusaders and Muslim forces strategic dominance over Levantine trade."
+  },
+  {
+    "title": "Portuguese Colonies in Brazil",
+    "year": 1532,
+    "location": { "coordinates": [-8.0476, -34.8770] },
+    "summary": "Establishment of Pernambuco and Bahia as key sugar and slave-trade hubs."
+  },
+  {
+    "title": "Treaty of Tordesillas",
+    "year": 1494,
+    "location": { "coordinates": [40.4168, -3.7038] },
+    "summary": "Divided the New World between Spain and Portugal, shaping global trade pathways."
+  },
+  {
+    "title": "Gold and Salt Trade Peak",
+    "year": 1200,
+    "location": { "coordinates": [13.5116, 2.1254] },
+    "summary": "Rise of Gao and Timbuktu as key trade centers between West Africa and North Africa."
+  },
+  {
+    "title": "Dutch East India Company Formation",
+    "year": 1602,
+    "location": { "coordinates": [52.3702, 4.8952] },
+    "summary": "VOC established monopolistic spice trade routes from Indonesia to Europe."
+  },
+  {
+    "title": "Ming Dynasty Tribute Trade",
+    "year": 1423,
+    "location": { "coordinates": [39.9163, 116.3972] },
+    "summary": "China’s tribute system structured trade and diplomatic relations across Asia."
+  },
+  {
+    "title": "Persian Caravanserai Network",
+    "year": 1000,
+    "location": { "coordinates": [29.5926, 52.5836] },
+    "summary": "Series of caravanserai supported safe trade travel across Persia."
+  },
+  {
+    "title": "Napoleonic Blockade",
+    "year": 1806,
+    "location": { "coordinates": [48.8566, 2.3522] },
+    "summary": "Napoleon’s Continental System disrupted Britain's overseas trade."
+  },
+  {
+    "title": "California Gold Rush",
+    "year": 1849,
+    "location": { "coordinates": [37.7749, -122.4194] },
+    "summary": "Mass migration to California significantly boosted regional economy and trade."
+  },
+  {
+    "title": "Suez Canal Opening",
+    "year": 1869,
+    "location": { "coordinates": [30.0444, 32.5498] },
+    "summary": "Revolutionized trade between Europe and Asia by linking Mediterranean and Red Sea."
+  }
+]
+[
+  {
+    "title": "Indus Valley Maritime Trade",
+    "year": -2000,
+    "location": { "coordinates": [24.8607, 67.0011] },
+    "summary": "Indus Valley cities like Mohenjo-daro traded extensively with Mesopotamia via coastal maritime routes."
+  },
+  {
+    "title": "Phoenician Trade Network",
+    "year": -800,
+    "location": { "coordinates": [34.7071, 35.5762] },
+    "summary": "Phoenician city-states controlled Mediterranean trade with ships and colonies."
+  },
+  {
+    "title": "Persian Royal Road Established",
+    "year": -500,
+    "location": { "coordinates": [34.2232, 48.0150] },
+    "summary": "The Achaemenid Empire built the Royal Road to facilitate fast communication and commerce."
+  },
+  {
+    "title": "Roman Grain Ships to Rome",
+    "year": 100,
+    "location": { "coordinates": [37.9838, 23.7275] },
+    "summary": "Grain fleets from Egypt ensured food supply for the growing population of Rome."
+  },
+  {
+    "title": "Arabian Incense Route",
+    "year": -100,
+    "location": { "coordinates": [20.3095, 39.2737] },
+    "summary": "Caravans transported frankincense and myrrh from southern Arabia to Mediterranean markets."
+  },
+  {
+    "title": "Tang Dynasty Silk Transport",
+    "year": 700,
+    "location": { "coordinates": [34.3416, 108.9398] },
+    "summary": "Silk was regularly sent west from Chang'an, enriching both economy and culture."
+  },
+  {
+    "title": "Viking Trade in the Rus Lands",
+    "year": 900,
+    "location": { "coordinates": [59.9311, 30.3609] },
+    "summary": "Scandinavian traders established routes along rivers to Byzantium and the Caspian."
+  },
+  {
+    "title": "Byzantine Grain Trade",
+    "year": 600,
+    "location": { "coordinates": [41.0082, 28.9784] },
+    "summary": "Constantinople depended on grain shipments from Egypt and the Black Sea region."
+  },
+  {
+    "title": "Andalusian Silk Production",
+    "year": 950,
+    "location": { "coordinates": [37.3891, -5.9845] },
+    "summary": "Cordoba produced silk and rose to prominence via Mediterranean trade."
+  },
+  {
+    "title": "Portuguese Round-Africa Voyages",
+    "year": 1498,
+    "location": { "coordinates": [-6.1630, 39.1979] },
+    "summary": "Vasco da Gama reached India around Africa’s Cape, forging a new sea route."
+  },
+  {
+    "title": "British East India Company Charter",
+    "year": 1600,
+    "location": { "coordinates": [51.5074, -0.1278] },
+    "summary": "Queen Elizabeth granted the Company monopoly on trade in Asia."
+  },
+  {
+    "title": "French Fur Trade in North America",
+    "year": 1660,
+    "location": { "coordinates": [45.5017, -73.5673] },
+    "summary": "French traders established fur trade networks with Indigenous peoples along the St. Lawrence River."
+  },
+  {
+    "title": "Silk Production in Roman Egypt",
+    "year": 300,
+    "location": { "coordinates": [30.0444, 31.2357] },
+    "summary": "Egypt became a center for silk weaving, boosting Mediterranean commerce."
+  },
+  {
+    "title": "Dutch Sugar Economy in the Caribbean",
+    "year": 1650,
+    "location": { "coordinates": [18.1096, -77.2975] },
+    "summary": "Sugar plantations in Jamaica and Barbados became key to Dutch trade."
+  },
+  {
+    "title": "Tea Trade from China",
+    "year": 1700,
+    "location": { "coordinates": [31.2304, 121.4737] },
+    "summary": "Tea exports expanded significantly, shaping global trade patterns."
+  }
+]
