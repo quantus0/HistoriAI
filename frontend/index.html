@@ -1,11 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HistoriAI</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HistoriAI Chatbot</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9fafb;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    #chat {
+      flex: 1;
+      padding: 1rem;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .message {
+      max-width: 70%;
+      padding: 0.75rem 1rem;
+      border-radius: 1rem;
+      line-height: 1.4;
+    }
+    .user {
+      align-self: flex-end;
+      background: #3b82f6;
+      color: white;
+    }
+    .bot {
+      align-self: flex-start;
+      background: #e5e7eb;
+      color: #111827;
+    }
+    form {
+      display: flex;
+      padding: 1rem;
+      background: white;
+      border-top: 1px solid #e5e7eb;
+    }
+    input {
+      flex: 1;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      border: 1px solid #d1d5db;
+      border-radius: 0.5rem;
+      outline: none;
+    }
+    button {
+      margin-left: 0.5rem;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      background: #10b981;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #059669;
+    }
+  </style>
 </head>
 <body>
-  <div id="root"></div>
+  <header>HistoriAI: Ask History Anything</header>
+
+  <div id="chat">
+    <div class="message bot">
+      Hello! I'm HistoriAI. Ask me about trade routes, historical events, or conflicts between 1500–1800.
+    </div>
+  </div>
+
+  <form id="form">
+    <input type="text" id="input" placeholder="e.g., Show me conflicts near India in 1700s..." required />
+    <button type="submit">Send</button>
+  </form>
+
+  <script>
+    const form = document.getElementById('form');
+    const input = document.getElementById('input');
+    const chat = document.getElementById('chat');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const message = input.value.trim();
+      if (!message) return;
+
+      appendMessage('user', message);
+      input.value = '';
+
+      appendMessage('bot', 'Thinking...');
+
+      try {
+        const res = await fetch('http://localhost:8080/query', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query: message })
+        });
+
+        const data = await res.json();
+        removeLastBotMessage(); // remove "Thinking..."
+        appendMessage('bot', data.answer || 'No answer available.');
+      } catch (err) {
+        removeLastBotMessage();
+        appendMessage('bot', 'Error connecting to server.');
+      }
+    });
+
+    function appendMessage(sender, text) {
+      const div = document.createElement('div');
+      div.className = `message ${sender}`;
+      div.textContent = text;
+      chat.appendChild(div);
+      chat.scrollTop = chat.scrollHeight;
+    }
+
+    function removeLastBotMessage() {
+      const messages = document.querySelectorAll('.message.bot');
+      if (messages.length) {
+        messages[messages.length - 1].remove();
+      }
+    }
+  </script>
 </body>
 </html>
